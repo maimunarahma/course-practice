@@ -265,17 +265,37 @@ content3{
   height: 137px;
   }
   .banner9{
-    width: 1000px;
+    width: 1600px;
     height: 609px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     background-color: black;
     color: white;
+    padding: 60px;
+    background-position: cover;
   }
   .banner9 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px 275px 120px 140px;
   }
   .banner9 nav li{
     list-style: none;
   }
+ .icons{
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding:  300px 600px 300px 600px; */
+    gap: 2px;
+    margin-left: 640px;
+    margin-right: 650px;
+ }
+ .banner9 footer{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 275px 120px 140px;
+ }
